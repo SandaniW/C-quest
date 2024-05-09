@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1714889772 source:h:\sandani\c\learn\helloworld\variables.c
+	<stdio.h>
+
+1714894306 source:h:\sandani\c\learn\helloworld\var2.c
+	<stdio.h>
+
