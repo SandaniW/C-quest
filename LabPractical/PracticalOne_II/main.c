@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main()
 {
@@ -58,7 +59,7 @@ int main()
         printf("DD      DD\n");
         printf("  DDDDD\n");
         printf("8)\n");
-        printf("8 printf\n");
+        printf("8 printf lines\n");
         printf("********\n");
         printf(" ********\n");
         printf("********\n");
@@ -67,19 +68,50 @@ int main()
         printf(" ********\n");
         printf("********\n");
         printf(" ********\n");
-        printf("for\n");
+        printf("\nfor loop\n");
         for(int i=0;i<4;i++){
             printf("********\n");
         printf(" ********\n");
         }
-        printf("9)\n");
+        printf("\n9)\n");
         int getArea(int h,int w){
             int area = h*w;
             return area;
         }
         int height =7;
         int width = 5;
-        printf("Area of the rectangle: %d",getArea(height,width));
+        printf("Area of the rectangle: %d\n",getArea(height,width));
+        printf("\n10)\n");
+        double getCirclePerimeter(double r){
+            double peri = 2*M_PI*r;
+            return peri;
+        }
+        double getCircleArea(double r){
+            double circleArea = M_PI*(r*r);
+            return circleArea;
+        }
+        double circleR = 6;
+        printf("Perimeter of the circle with radius %lf inches: %lf inches\n",circleR,getCirclePerimeter(circleR));
+        printf("Area of the circle with radius %lf inches: %lf inches squared\n",circleR,getCircleArea(circleR));
+        printf("11)\n");
+        int n1 = 2;
+        int n2 = 5;
+        int n3 = 6;
+        int sum = n1+n2+n3;
+        printf("%d + %d + %d = %d \n",n1,n2,n3,sum);
+        printf("\n12)\n");
+        int n4 = 10;
+        int n5 = 4;
+        printf("Difference is: %d\n",n4-n5);
+        printf("\n13)\n");
+        int n6 = 20;
+        int n7 = 15;
+        printf("Product of %d and %d : %d\n",n6,n7,n6*n7);
+        printf("\n14\n");
+        printf("Sum of 64/8: %d",64/8);
+
+
+
 
 
     return 0;
