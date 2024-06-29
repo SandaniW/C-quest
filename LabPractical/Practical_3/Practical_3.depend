@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1717832616 source:h:\sandani\c\learn\practical_3\main.c
+	<stdio.h>
+	<stdlib.h>
+
